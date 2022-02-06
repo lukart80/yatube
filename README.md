@@ -28,6 +28,8 @@ Python, Django, DjangoRestFramework, PostgresSQL, Docker
 
 `docker-compose up`
 
+Проект будет доступен по адресу `http://127.0.0.1:8000`
+
 При первом запуске выполнить миграции
 
 `docker-compose exec web python manage.py migrate`
